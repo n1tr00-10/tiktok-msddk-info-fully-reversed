@@ -209,7 +209,7 @@ tiktok-xmssdk-info-reversed/
 No third-party packages are required:
 
 ```bash
-git clone https://github.com/your-username/tiktok-xmssdk-info-reversed.git
+git clone https://github.com/n1tr00-10/tiktok-msddk-info-fully-reversed
 cd tiktok-xmssdk-info-reversed
 python example_usage.py
 ```
