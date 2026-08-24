@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-100%25%20Byte--Exact-success.svg)
 ![License](https://img.shields.io/badge/License-MIT-purple.svg)
 
-A complete, 100% pure Python reverse-engineering implementation of TikTok's latest **`X-Mssdk-Info`** telemetry & device fingerprinting header (found in **TikTok webmssdk v5.3.1** and recent web endpoints).
+A complete, 100% pure Python reverse-engineering implementation of TikTok's latest **`X-Mssdk-Info`** telemetry & device fingerprinting header (found in **TikTok webmssdk_ex.js** and recent web endpoints).
 
 > **Zero External Dependencies**: Operates natively in standard Python 3. No Node.js, MiniRacer, V8 runtime, JSDOM, or headless browser automation required.
 
