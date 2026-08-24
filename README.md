@@ -193,24 +193,24 @@ A decrypted `X-Mssdk-Info` payload (`decrypted.json`) contains the following sec
 ##  Repository Structure
 
 ```
-tiktok-xmssdk-info-reversed/
-├── README.md                  # Comprehensive technical documentation
-├── x_mssdk_info.py            # Pure Python generator for X-Mssdk-Info
-├── x_mssdk_info_decrypter.py  # Pure Python decrypter tool (dumps to decrypted.json)
-├── example_usage.py           # Example script (generation + round-trip + request)
-├── decrypted.json             # Sample decrypted authentic TikTok payload
-└── requirements.txt           # Requirements (standard library only)
+tiktok-msddk-info-fully-reversed/
+|-- README.md                  # Comprehensive technical documentation
+|-- x_mssdk_info.py            # Pure Python generator for X-Mssdk-Info
+|-- x_mssdk_info_decrypter.py  # Pure Python decrypter tool (dumps to decrypted.json)
+|-- example_usage.py           # Example script (generation + round-trip + request)
+|-- decrypted.json             # Sample decrypted authentic TikTok payload
+\-- requirements.txt           # Requirements (standard library only)
 ```
 
 ---
 
-##  Quick Start & Installation
+## Quick Start & Installation
 
 No third-party packages are required:
 
 ```bash
-git clone https://github.com/n1tr00-10/tiktok-msddk-info-fully-reversed
-cd tiktok-xmssdk-info-reversed
+git clone https://github.com/n1tr00-10/tiktok-msddk-info-fully-reversed.git
+cd tiktok-msddk-info-fully-reversed
 python example_usage.py
 ```
 
